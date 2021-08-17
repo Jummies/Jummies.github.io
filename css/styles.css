@@ -11039,6 +11039,7 @@ header.masthead .masthead-heading {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 50px;
 }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
@@ -11309,6 +11310,7 @@ section#contact {
   background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
+  color: white;
 }
 section#contact .section-heading {
   color: #fff;
@@ -11362,4 +11364,65 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.single-skill-content i{
+  font-size: 50px;
+  margin: 10px;
+}
+.single-skill-content{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.individual-skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.individual-skill h2{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.hm-foot-icon ul li{float:left;}
+.hm-foot-icon ul {
+  list-style-type: none;
+}
+.hm-foot-icon ul li>a {
+  
+    color: #636a82;
+    margin-right:18px;
+    -webkit-transition: .3s; 
+    -moz-transition:.3s; 
+    -ms-transition:.3s; 
+    -o-transition:.3s;
+    transition: .3s;
+}
+.hm-foot-icon ul li>a:hover{
+    color: #b90000;
+}/*hm-foot-icon*/
+
+.about {
+  padding: 50px 0 100px;
+  
+}
+.about-content {
+  padding-top: 100px;
+  
+}
+/*.single-about-txt*/
+.single-about-txt h3 {
+    font-size:18px;
+    color: #3c4258;
+    text-transform: initial;
+    line-height: 1.8;
+}
+.single-about-txt p {
+    font-size: 16px;
+    color: #999fb3;
+    padding: 35px 0 43px;
+
 }
